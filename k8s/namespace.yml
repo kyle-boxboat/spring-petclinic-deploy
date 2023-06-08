@@ -1,0 +1,10 @@
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: cloud-refresh-petclinic
+  annotations:
+    openshift.io/description: PetClinic demo application
+    openshift.io/display-name: PetClinic
+  labels:
+    kubernetes.io/metadata.name: cloud-refresh-petclinic
