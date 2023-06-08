@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: petclinic
-          image: ttl.sh/kyle-boxboat/spring-petclinic@sha256:954c9ab4af40bee5dfc990458d5f1afbeaaa11bc52eb0a71d406fda2d0faf1fb
+          image: ttl.sh/kyle-boxboat/spring-petclinic@sha256:bb2ac7f08d6a04a6f40fafa2a69fe3f3c9bdb3929b56dd37406308c639bb5255
           ports:
             - containerPort: 8080
           resources:
